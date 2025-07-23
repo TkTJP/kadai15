@@ -11,10 +11,10 @@ $(function() {
             //リクエスト先のURLを設定
             url: 'api.php',
             //送信データの設定
-            data: {
+            data : {
                 no: input_no,
                 score: input_score
-            }
+            },
         }).done(function(data){
 
             //JSONデータを解析
